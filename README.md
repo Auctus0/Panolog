@@ -4,7 +4,7 @@
 
 **Panolog**, panoya (clipboard) kopyalanan metinleri ve görselleri otomatik olarak algılayıp listeleyen, görselleri kaydedebilen ve metinleri düzenleyebilen bir Windows Forms uygulamasıdır.
 
-![Panolog Ekran Görüntüsü](https://github.com/Auctus0/Panolog/assets/ekrangoruntusu.png)
+![Panolog Video ](https://github.com/Auctus0/Panolog/kullanim.mp4
 
 ## 🚀 Özellikler
 
