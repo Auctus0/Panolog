@@ -24,7 +24,6 @@ namespace Panolog
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HTCAPTION = 0x2;
 
-        Panel panel = new Panel();
         List<string> resimler = new List<string>();
 
         public Form1()
