@@ -25,7 +25,7 @@ namespace Panolog
         public const int HTCAPTION = 0x2;
 
         List<string> resimler = new List<string>();
-
+        string sonsilinen;
         public Form1()
         {
             InitializeComponent();
@@ -158,7 +158,7 @@ namespace Panolog
                 return;
             }
 
-            if (!listBox1.Items.Contains(metin) && !string.IsNullOrWhiteSpace(metin))
+            if (!listBox1.Items.Contains(metin) && !string.IsNullOrWhiteSpace(metin)&& metin != sonsilinen)
             {
                 listBox1.Items.Add(metin);
                 buttons(metin, null);
@@ -224,10 +224,21 @@ namespace Panolog
 
         private void silmeBtn_Click(object sender, EventArgs e)
         {
-            if (sender is Button btn && btn.Parent != null)
+
+            foreach (Panel panel in flowLayoutPanel1.Controls)
             {
-                flowLayoutPanel1.Controls.Remove(btn.Parent);
+                foreach (Control ctrl in panel.Controls)
+                {
+                    if (ctrl is Button button && button.Tag?.ToString() == "1")
+                    {
+                        sonsilinen = button.Text;
+                        listBox1.Items.Remove(button.Text);
+                        flowLayoutPanel1.Controls.Remove(button.Parent);
+                        break; 
+                    }
+                }
             }
+
         }
 
         private void editbtn_Click(object sender, EventArgs e)
