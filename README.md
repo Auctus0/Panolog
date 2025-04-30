@@ -30,13 +30,19 @@
 - `CTRL + E`: Uygulamayı gizler veya gösterir.
 
 ## 🔧 Kurulum
-  #A
-    Bu bağlantıdan Setup dosyasını indirebilirsiniz (https://github.com/Auctus0/Panolog/releases/tag/Setup)
-  #B
-    1. Visual Studio ile projeyi aç.
-    2. `Panolog.sln` dosyasını çalıştır.
-    3. Gerekirse eksik NuGet paketlerini yükle.
-    4. `Start` diyerek uygulamayı çalıştır.
+  A
+
+  
+  Bu bağlantıdan Setup dosyasını indirebilirsiniz (https://github.com/Auctus0/Panolog/releases/tag/Setup)
+
+
+  B
+
+  
+  1. Visual Studio ile projeyi aç.
+  2. `Panolog.sln` dosyasını çalıştır.
+  3. Gerekirse eksik NuGet paketlerini yükle.
+  4. `Start` diyerek uygulamayı çalıştır.
 
 
 
