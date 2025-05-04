@@ -9,13 +9,11 @@
 ## 🚀 Özellikler
 
 - 📋 Panoya kopyalanan metinleri ve görselleri otomatik olarak yakalar.
-- 🧹 Tek tıkla liste temizleme özelliği.
 - ✏️ Metin düzenleme.
 - 🖼️ Görseli bilgisayara kaydetme.
 - ➕ Manuel metin ekleme.
 - 📷 QR üzerinden metin alma desteği.
 - 🔧 Windows başlangıcına otomatik eklenme (Registry).
-- 🖱️ Görsel ve metin öğeleri için ayrı ayrı silme ve düzenleme düğmeleri.
 
 ## 🛠️ Teknolojiler
 
